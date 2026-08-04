@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Manuela Santos — Desenvolvedora Front-end</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">HYPEU<span>.</span>Dev</div>
+            <div class="nav-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container" style="display:contents;">
+            <div>
+                <span class="eyebrow">Portfólio · 2026</span>
+                <h1>Manuela Santos<br>Desenvolvedora Front-end</h1>
+                <p class="lead">Estudante veterana de Análise e Desenvolvimento de Sistemas. Minha motivação é resolver problemas e ver o resultado no sorriso de quem usa — com criatividade e inovação.</p>
+                <div class="hero-cta">
+                    <a href="#contato" class="btn btn-primary">Vamos conversar</a>
+                    <a href="#projetos" class="btn btn-outline">Ver projetos</a>
+                </div>
+            </div>
+
+            <div class="terminal" id="terminal">
+                <div class="terminal-dots"><span></span><span></span><span></span></div>
+                <div id="terminal-lines"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="eyebrow">Sobre</span>
+                <h2>Quem faz o site rodar</h2>
+            </div>
+            <div class="about">
+                <div class="about-card reveal-up">
+                    <div class="role">Manuela Oliveira Santos</div>
+                    <div style="color:var(--ink-soft); font-size:0.95rem;">Analisar → Desenvolver → Solucionar</div>
+                    <div class="stack">
+                        <span>HTML</span><span>CSS</span><span>Python</span><span>Java</span><span>UI/UX</span>
+                    </div>
+                </div>
+                <div class="about-text reveal-up">
+                    <p>Estou no meio da minha jornada em ADS, e nesse tempo aprendi que tecnologia boa é aquela que resolve um problema de verdade. Não a mais bonita, mas a que funciona pra quem precisa.</p>
+                    <p>Gosto de pegar uma ideia solta de um pequeno negócio e transformar em algo palpável: um site prático, um
+                        cardápio digital, um catálogo. Curiosidade e vontade de aprender fazem parte do meu processo o tempo todo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos"
+        style="background:var(--bg-alt); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="eyebrow">Serviços</span>
+                <h2>O que eu posso fazer pelo seu negócio?</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal-up">
+                    <div class="service-icon">🌐</div>
+                    <h3>Sites institucionais</h3>
+                    <p>Um site simples, rápido e profissional para sua empresa aparecer bem no Google e passar confiança.
+                    </p>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-icon">📋</div>
+                    <h3>Cardápios digitais</h3>
+                    <p>Cardápio online com QR code, fácil de atualizar, sem depender de imprimir de novo toda vez que
+                        muda o preço.</p>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-icon">🗂️</div>
+                    <h3>Catálogos online</h3>
+                    <p>Vitrine digital dos seus produtos e/ou serviços, organizada e fácil de navegar no celular.</p>
+                </div>
+                <div class="service-card more reveal-up" >
+                    <a href="#contato">Tem uma ideia diferente? <br> Vamos conversar sobre o seu projeto.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <div class="section-head reveal-up">
+                <span class="eyebrow">Projetos</span>
+                <h2>Alguns trabalhos</h2>
+            </div>
+
+
+            <div class="projects-grid">
+                <div class="project-card reveal-up">
+                    <div class="project-thumb"><img src="img/PlataformaScrum.png" alt="Print do projeto Plataforma Scrum"></div>
+                    <div class="project-body">
+                        <span class="project-tag">Faculdade · Web · HTML/CSS</span>
+                        <h3>Plataforma Scrum</h3>
+                        <p>Um site que contém um curso para treinar pessoas em metodologias ágeis.</p>
+                        <a href="https://github.com/404-Team-Not-Found-API/plataforma-scrum-api-2025.2.git" class="project-link" target="_blank">Ver projeto no GitHub →</a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up">
+                    <div class="project-thumb"><img src="img/IntelliDog.png" alt="Print do projeto Plataforma IntelliDog"></div>
+                    <div class="project-body">
+                        <span class="project-tag">Faculdade · Aplicativo · Java</span>
+                        <h3>Plataforma de Gestão de Compras - IntelliDog</h3>
+                        <p>Um aplicativo dedicado à gestão de compras para um fluxo de trabalho mais eficiente e automatizado.</p>
+                        <a href="https://github.com/Niikoto/RESMOD.git" class="project-link" target="_blank">Ver projeto no GitHub →</a>
+                    </div>
+                </div>
+                <div class="project-card reveal-up">
+                    <div class="project-thumb"><img src="img/ClinicaVet.png" alt="Print do projeto Clínica Veterinária"></div>
+                    <div class="project-body">
+                        <span class="project-tag">Faculdade · Aplicativo · Java</span>
+                        <h3>Plataforma Clínica Veterinária</h3>
+                        <p>Um aplicativo para gerenciar uma clínica veterinária, ajudando clientes e seus pets.</p>
+                        <a href="https://github.com/MaciellCB/Clinica-Vet.git" class="project-link" target="_blank">Ver projeto no GitHub →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" style="padding-top:0;">
+        <div class="contact reveal-up">
+            <span class="eyebrow">Contato</span>
+            <h2>Vamos dar vida ao seu projeto?</h2>
+            <p>Me chame e me conte do que você precisa — site, cardápio, catálogo ou outro tipo de projeto. Respondo rapidinho! 😉</p>
+            <div class="contact-links">
+                <!-- 📱 Troque os href pelos seus links reais de contato -->
+                <a href="https://wa.me/5512981525390" target="_blank">WhatsApp</a>
+                <a href="mailto:manumanuholi87@gmail.com">E-mail</a>
+                <a href="https://www.instagram.com/manumanu_8787/" target="_blank">Instagram</a>
+                <a href="https://linkedin.com/in/manuela-santos-098797351" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Manuela Santos — Todos os direitos reservados.
+    </footer>
+
+    <script>
+        // Efeito de terminal digitando no hero
+        const lines = [
+            { prompt: '~$', text: 'iniciar --projeto "novo-site"' },
+            { prompt: '>', text: 'analisando necessidades do cliente...' },
+            { prompt: '>', text: 'desenvolvendo interface...' },
+            { prompt: '>', text: 'solucionando ✔' },
+        ];
+
+        const container = document.getElementById('terminal-lines');
+        let delay = 300;
+
+        lines.forEach((line, i) => {
+            const el = document.createElement('div');
+            el.className = 'terminal-line';
+            el.style.animationDelay = delay + 'ms';
+            el.innerHTML = `<span class="prompt">${line.prompt}</span>${line.text}`;
+            container.appendChild(el);
+            delay += 550;
+        });
+
+        const cursor = document.createElement('span');
+        cursor.className = 'cursor';
+        setTimeout(() => container.appendChild(cursor), delay);
+
+        // Scroll reveal
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.reveal-up').forEach(el => observer.observe(el));
+    </script>
+
+</body>
+
+</html>
